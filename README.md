@@ -10,7 +10,7 @@ enumerable and lazy, like `Range` and the previously created `SteppedRange`.
 -   [Fibonacci number](https://en.wikipedia.org/wiki/Fibonacci_number)
 -   [Module: Enumerable (Ruby 2.3.0)](http://ruby-doc.org/core-2.3.0/Enumerable.html)
 -   [Class: Range (Ruby 2.3.0)](http://ruby-doc.org/core-2.3.0/Range.html)
--   [Ruby Enumerable and Comparable](https://github.com/ga-wdi-boston/ruby-enumerable-custom)
+-   [Ruby Enumerable and Comparable](https://git.generalassemb.ly/ga-wdi-boston/ruby-enumerable-comparable)
 
 ## Instructions
 
@@ -23,9 +23,9 @@ enumerable and lazy, like `Range` and the previously created `SteppedRange`.
 Starter code is available in [`lib/challenge.rb`](lib/challenge.rb). A pull
 request is not required, but it is necessary if you want a code review.
 
-You may wish to refer to [FAQs](https://github.com/ga-wdi-boston/meta/wiki/)
+You may wish to refer to [FAQs](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/)
 related to [forking,
-cloning](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone).
+cloning](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/ForkAndClone).
 
 ## Requirements
 
