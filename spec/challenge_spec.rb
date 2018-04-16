@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative '../binding_of_caller.rb'
+require 'binding_of_caller'
 require_relative '../lib/challenge.rb'
 
 describe 'FibonacciRange' do
