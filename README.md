@@ -7,18 +7,18 @@ enumerable and lazy, like `Range` and the previously created `SteppedRange`.
 
 ## Prerequisites
 
--   [Fibonacci number](https://en.wikipedia.org/wiki/Fibonacci_number)
--   [Module: Enumerable (Ruby 2.3.0)](http://ruby-doc.org/core-2.3.0/Enumerable.html)
--   [Class: Range (Ruby 2.3.0)](http://ruby-doc.org/core-2.3.0/Range.html)
--   [Ruby Enumerable and Comparable](https://git.generalassemb.ly/ga-wdi-boston/ruby-enumerable-comparable)
+- [Fibonacci number](https://en.wikipedia.org/wiki/Fibonacci_number)
+- [Module: Enumerable (Ruby 2.3.0)](http://ruby-doc.org/core-2.3.0/Enumerable.html)
+- [Class: Range (Ruby 2.3.0)](http://ruby-doc.org/core-2.3.0/Range.html)
+- [Ruby Enumerable and Comparable](https://git.generalassemb.ly/ga-wdi-boston/ruby-enumerable-comparable)
 
 ## Instructions
 
-1.  Fork and clone this repository.
-1.  Change into the new directory.
-1.  Install dependencies.
-1.  Create and checkout a new branch to work on.
-1.  Fulfill the listed requirements.
+1. Fork and clone this repository.
+1. Change into the new directory.
+1. Install dependencies.
+1. Create and checkout a new branch to work on.
+1. Fulfill the listed requirements.
 
 Starter code is available in [`lib/challenge.rb`](lib/challenge.rb). A pull
 request is not required, but it is necessary if you want a code review.
@@ -29,17 +29,17 @@ cloning](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/ForkAndClone).
 
 ## Requirements
 
--   `FibonacciRange` is Enumerable.
--   `FibonacciRange` has one instance variable `@stop`. It stores no other
+- `FibonacciRange` is Enumerable.
+- `FibonacciRange` has one instance variable `@stop`. It stores no other
     state on the instance.
--   `#each` stores no more than three values to do its work: `current_fib`,
+- `#each` stores no more than three values to do its work: `current_fib`,
     `previous_fib`, and `next_fib`.
--   `FibonacciRange.new` takes one required, positional argument: `stop`
--   `FibonacciRange` always starts at `0` when creating a new sequence.
--   You should not create a list when `FibonacciRange.new` is called. Instead,
+- `FibonacciRange.new` takes one required, positional argument: `stop`
+- `FibonacciRange` always starts at `0` when creating a new sequence.
+- You should not create a list when `FibonacciRange.new` is called. Instead,
     `FibonacciRange.new(10).map(&:itself)` should return `[0, 1, 1, 2, 3, 5,
     8]`. This is referred to as "lazy evaluation".
--   `FibonacciRange.new(10).to_a` should return `[0, 1, 1, 2, 3, 5, 8]`
+- `FibonacciRange.new(10).to_a` should return `[0, 1, 1, 2, 3, 5, 8]`
 
 Pay attention to your linter and fix any syntax errors as they occur. You should
 run `bin/rake test` to run the included tests. Tests will tell you whether or
@@ -50,11 +50,11 @@ not you've met these requirements.
 Write a class, `FibonacciNumber`, that returns the `nth` number in the Fibonacci
 sequence. Requirements:
 
--   `FibonacciNumber` stores no state on the instance.
--   `FibonacciNumber.new` and `FibonacciNumber.new(1)` should both
+- `FibonacciNumber` stores no state on the instance.
+- `FibonacciNumber.new` and `FibonacciNumber.new(1)` should both
     return the the first Fibonacci number, `0`. In this case, we use "first" as
     mathematicians would use it, whereas programmers would say "zeroth".
--   `FibonacciNumber.new(3).to_i` returns the third Fibonacci number. Since the
+- `FibonacciNumber.new(3).to_i` returns the third Fibonacci number. Since the
      Fibonacci sequence is `0, 1, 1, 2, 3, 5...`, the third number is 1.
 
 This will be **very difficult**. You may or may not choose to reuse your
@@ -67,13 +67,13 @@ tradeoffs between (pros and cons of) each solution.
 
 Developers should run these often!
 
--   `bin/rake nag`  (or `bundle exec rake nag`):
+- `bin/rake nag`  (or `bundle exec rake nag`):
     runs code quality analysis tools on your code and complains.
--   `bin/rake test` (or `bundle exec rake test`): runs automated tests.
--   `bin/rake` will run both `nag` and `test`
+- `bin/rake test` (or `bundle exec rake test`): runs automated tests.
+- `bin/rake` will run both `nag` and `test`
 
 ## [License](LICENSE)
 
-1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
-1.  All software code is licensed under GNU GPLv3. For commercial use or
+1. All content is licensed under a CC­BY­NC­SA 4.0 license.
+1. All software code is licensed under GNU GPLv3. For commercial use or
     alternative licensing, please contact legal@ga.co.
