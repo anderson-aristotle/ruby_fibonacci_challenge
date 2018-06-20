@@ -8,8 +8,8 @@ enumerable and lazy, like `Range` and the previously created `SteppedRange`.
 ## Prerequisites
 
 - [Fibonacci number](https://en.wikipedia.org/wiki/Fibonacci_number)
-- [Module: Enumerable (Ruby 2.3.0)](http://ruby-doc.org/core-2.3.0/Enumerable.html)
-- [Class: Range (Ruby 2.3.0)](http://ruby-doc.org/core-2.3.0/Range.html)
+- [Module: Enumerable (Ruby 2.5.0)](http://ruby-doc.org/core-2.5.0/Enumerable.html)
+- [Class: Range (Ruby 2.5.0)](http://ruby-doc.org/core-2.5.0/Range.html)
 - [Ruby Enumerable and Comparable](https://git.generalassemb.ly/ga-wdi-boston/ruby-enumerable-comparable)
 
 ## Instructions
